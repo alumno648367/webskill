@@ -1,0 +1,18 @@
+.bg-green{
+    background-color: rgb(229, 250, 233);
+}
+.bg-gray{
+    background-color: rgb(108, 117, 126);
+}
+.bg-btn{
+    background-color: rgb(39, 168, 68);
+}
+.modal{
+    top: -25%;
+}
+#modalId1{
+    top:0%; 
+}
+.bg-modal{
+    background-color: rgb(245,249,252);
+}
