@@ -7,12 +7,9 @@
 .bg-btn{
     background-color: rgb(39, 168, 68);
 }
-.modal{
-    top: -25%;
-}
-#modalId1{
-    top:0%; 
-}
 .bg-modal{
     background-color: rgb(245,249,252);
+}
+.bg-green2{
+    background-color: rgb(39, 168, 68);
 }
