@@ -13,3 +13,6 @@
 .bg-green2{
     background-color: rgb(39, 168, 68);
 }
+.table td.mi-color{
+    background-color: rgb(216, 237, 220) !important;
+}

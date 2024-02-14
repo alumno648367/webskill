@@ -270,7 +270,6 @@
                         <a class="nav-link" href="https://cifpvirgendegracia.com/ " target="_blank"> C.I.F.P. Virgen de Gracia.</a>
                         <a class="nav-link" href="http://www.iesgregorioprieto.com/" target="_blank"> I.E.S. Gregorio Prieto</a>
                         <a class="nav-link" href="https://www.iespedromercedes.es/" target="_blank"> I.E.S. Pedro Mercedes. </a>
-                        <a class="nav-link" href="https://www.iespedromercedes.es/" target="_blank"> I.E.S. Pedro  Mercedes. </a>
                         <a class="nav-link" href="http://briandademendoza.es/" target="_blank"> I.E.S. Brianda de Mendoza.</a>
                         <a class="nav-link" href="http://riberadeltajo.es/nuevaweb/" target="_blank"> I.E.S. Ribera del ajo.</a>
                     </nav>
@@ -468,6 +467,48 @@
                 options,
             );
         </script>
+        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalId3"> Contacto
+</a>
+<div class="modal fade" id="modalId3" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+    role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body bg-modal modal-lg text-black">
+                <h3 class="text-center">Escribe un comentario para contactar</h3>
+                <div class="container border bg-white">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-12">
+                            <label for="validationCustom01" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="validationCustom01" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="validationCustom03" class="form-label">Tu
+                                E-mail</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                        </div>
+                        <div class="modal-body">
+                            <label for="" class="form-label">Tu comentario</label>
+                            <textarea class="form-control" name="" id="" rows="5"></textarea>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <button class="btn btn-success w-100 bg-btn" type="submit">Entrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    const myModal = new bootstrap.Modal(
+        document.getElementById("modalId3"),
+        options,
+    );
+</script>
                     </nav>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-1 d-flex flex-column align-items-end">
